@@ -7,19 +7,30 @@ class Synthos {
     this.bpm = 200
     this.loops = 1
     this.track = []
+    this.type = 'triangle'
+    this.duration = 0.2
+  }
+  setBpm (bpm) {
+    this.bpm = bpm
   }
 
+  setDuration (duration) {
+    this.duration = duration
+  }
+
+  setType (type) {
+    this.type = type
+  }
   addFrequency (frequency) {
     this.frequencies[this.frequencies.length] = frequency
   }
 
   play () {
     for (var index = 0; index < this.frequencies.length; index++) {
-      var val = this.frequencies[index]
       this.track[index] = {
-        type: 'triangle',
-        frequency: val,
-        duration: 0.2,
+        type: this.type,
+        frequency: this.frequencies[index],
+        duration: this.duration,
         filter: {
           frequency: 1000,
           type: 'highpass',
