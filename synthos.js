@@ -29,6 +29,10 @@ class Synthos {
     this.bpm = bpm
   }
 
+  setFrequencies (frequencies) {
+    this.frequencies = frequencies
+  }
+
   setDuration (duration) {
     this.duration = duration
   }

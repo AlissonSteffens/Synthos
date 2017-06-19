@@ -42,6 +42,21 @@ synthesizer.addFrequency(note.C)
 synthesizer.addFrequency(note.F)
 ```
 
+You can even set a frequencies array as tracker
+
+```js
+var music = [note.E, note.E, note.E, note.F, note.C, note.E, note.F, note.C, note.E]
+synthesizer.setFrequencies(music)
+```
+
+Optionaly change tracker propertyes with
+
+```js
+synthesizer.setType('square')
+synthesizer.setDuration(0.3)
+synthesizer.setBpm(150)
+```
+
 Play the sound using
 
 ```js
