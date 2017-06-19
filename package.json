@@ -1,0 +1,33 @@
+{
+  "name": "synthos",
+  "version": "1.0.0",
+  "description": "simple js sound synthesizer",
+  "main": "synthos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlissonSteffens/Synthos.git"
+  },
+  "keywords": [
+    "synt",
+    "sound",
+    "synthesizer"
+  ],
+  "author": "Alisson Steffens",
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "$",
+      "alert"
+    ],
+    "ignore": [
+      "/lib/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/AlissonSteffens/Synthos/issues"
+  },
+  "homepage": "https://github.com/AlissonSteffens/Synthos#readme"
+}

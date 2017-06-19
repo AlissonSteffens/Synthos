@@ -1,0 +1,11 @@
+$(document).ready(function () {
+  var mySynth = new Synthos()
+  mySynth.addFrequency(440)
+  mySynth.addFrequency(587.33)
+  mySynth.addFrequency(739.99)
+  mySynth.addFrequency(587.33)
+  mySynth.addFrequency(739.99)
+  mySynth.addFrequency(800.99)
+  mySynth.addFrequency(643.99)
+  mySynth.play()
+})
