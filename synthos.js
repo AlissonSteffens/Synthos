@@ -1,4 +1,19 @@
-document.writeln("<script type='text/javascript' src='synth.js'></script>")
+class Note {
+  constructor () {
+    this.C = 1054.94
+    this.Cs = 995.73
+    this.D = 939.85
+    this.Ds = 887.10
+    this.E = 837.31
+    this.F = 790.31
+    this.Fs = 745.96
+    this.G = 704.09
+    this.Gs = 664.57
+    this.A = 627.27
+    this.As = 592.07
+    this.B = 558.84
+  }
+}
 
 class Synthos {
   constructor () {

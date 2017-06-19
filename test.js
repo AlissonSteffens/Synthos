@@ -1,6 +1,9 @@
 $(document).ready(function () {
-  var music = [440, 440, 440, 349, 523, 440, 349, 523, 440]
   var mySynth = new Synthos()
+  var note = new Note()
+
+  var music = [note.E, note.E, note.E, note.F, note.C, note.E, note.F, note.C, note.E]
+
   mySynth.setType('square')
   mySynth.setDuration(0.3)
   mySynth.setBpm(150)
