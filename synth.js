@@ -99,8 +99,8 @@
    */
 
   Synth.prototype.play = function (sound) {
-    var filter,
-      chainableNode
+    var filter
+    var chainableNode
 
     this.carrier = setupCarrier(sound, this.context)
 

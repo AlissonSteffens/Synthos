@@ -12,6 +12,10 @@ class Note {
     this.A = 627.27
     this.As = 592.07
     this.B = 558.84
+    this.E5 = 659.255
+    this.Ds5 = 622.254
+    this.C5 = 523.251
+    this.B4 = 493.883
   }
 }
 
