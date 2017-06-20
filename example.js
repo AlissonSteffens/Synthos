@@ -1,5 +1,4 @@
-// On HTML you have to insert both Synth and Synthos js
-<script src="synth.js"></script>
+// On HTML you just have to insert Synthos js
 <script src="synthos.js"></script>
 
 // Synthos is an API to work with WebAudio API to generate sounds. Make a new synth like so:
