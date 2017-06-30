@@ -1,6 +1,6 @@
 {
   "name": "synthos",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "simple js sound synthesizer",
   "main": "synthos.js",
   "scripts": {
