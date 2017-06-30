@@ -282,21 +282,21 @@
 
 class Note {
   constructor () {
-    this.C = 1054.94
-    this.Cs = 995.73
-    this.D = 939.85
-    this.Ds = 887.10
-    this.E = 837.31
-    this.F = 790.31
-    this.Fs = 745.96
-    this.G = 704.09
-    this.Gs = 664.57
-    this.A = 627.27
-    this.As = 592.07
-    this.B = 558.84
-    this.E5 = 659.255
-    this.Ds5 = 622.254
-    this.C5 = 523.251
+    this.C = 130.81
+    this.Cs = 138.59
+    this.D = 146.83
+    this.Ds = 155.56
+    this.E = 164.81
+    this.F = 174.61
+    this.Fs = 185.00
+    this.G = 196.00
+    this.Gs = 207.65
+    this.A = 220.00
+    this.As = 233.08
+    this.B = 246.94
+    this.E5 = 261.63
+    this.Ds5 = 277.18
+    this.C5 = 293.66	
     this.B4 = 493.883
   }
 }
@@ -305,6 +305,7 @@ class Synthos {
   constructor () {
     this.mySynth = new Synth()
     this.frequencies = []
+    this.durations = []
     this.bpm = 200
     this.loops = 1
     this.track = []
@@ -313,6 +314,10 @@ class Synthos {
   }
   setBpm (bpm) {
     this.bpm = bpm
+  }
+
+  setDurations(durations){
+    this.durations = durations
   }
 
   setFrequencies (frequencies) {
@@ -335,7 +340,7 @@ class Synthos {
       this.track[index] = {
         type: this.type,
         frequency: this.frequencies[index],
-        duration: this.duration,
+        duration: this.durations[index],
         filter: {
           frequency: 1000,
           type: 'highpass',
