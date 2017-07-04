@@ -1,4 +1,4 @@
-![](https://cdn.rawgit.com/AlissonSteffens/Synthos/master/logo.svg)
+![](https://cdn.rawgit.com/AlissonSteffens/Synthos/master/synthos_logo.svg)
 # synthos 
 
 simple js sound synthesizer
